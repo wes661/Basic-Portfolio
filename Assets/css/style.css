@@ -1,0 +1,75 @@
+body{
+	background-image: url("http://www.judiciary.go.ke/judiciary/wp-content/uploads/2017/01/curtains-001654-glossy-white.jpg");
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: "Times New Roman";
+
+}
+
+.head{
+	width: 220px;
+	height: 70px;
+	background-color: #127bb7;
+	color: white;
+	border-style: ridge;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.nav{
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+	
+	
+	
+
+
+aside{
+	width: 270px;
+	float: right;
+	background-color: white;
+	border-style: ridge;
+	color: #127bb7;
+	
+	margin-top: 25px;
+	margin-left: 25px;
+
+}
+
+section{
+	width: 650px;
+	background-color: white;
+	border-style: ridge;
+	color: grey;
+	margin-top: 25px;
+	margin-right: 25px;
+	position: absolute;
+}
+
+h2{
+	color: #127bb7;
+	padding: 20px;
+
+}
+
+p{
+	line-height: 150%;
+	padding: 20px;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: ;
+	background-color: #666666;
+	color: gray;
+	text-align: center;
+}
