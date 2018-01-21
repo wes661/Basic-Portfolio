@@ -1,51 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="/Users/wesleyhanson/Desktop/Basic-Portfolio/Assets/css/style.css">
-	<title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+  <title>About Me</title>
 </head>
 <body>
 
-  <div class="head">
-    <header>
-      <h1>Wesley Hanson</h1>
-    </header>  
+  <div class="wrapper">
+    <div class="head">
+    
+        <h1 id="name">Wesley Hanson</h1>
+     
+  
+       <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html">About</a></li>
+          
+       </ul>
+    </div>
   </div>
+  <div class="container">
 
-  <div class="nav">
-  	<nav>
-      <a href="index.html">About</a>
-  	  <a href="portfolio.html">Portfolio</a>
-  	  <a href="contact.html">Contact</a>  
-  	</nav>
-  </div>
+    <section id="main-bio">
+    
+      <h2>Contact</h2>
+     <form id="contact-container">
+       <p>
+        <label>Name</label>
+        <br>
+        <input type="text" id="input-name" placeholder="John Smith" style="width: 100%; height: 20px;"></p>
+       <p>
+        <label>Email</label>
+        <br>
+        <input type="text" id="input-email" placeholder="example@gmail.com" style="width: 100%; height: 20px;"></p>
+       <p>
+        <label>Message</label>
+        <br>
+        <input type="text" id="input-message" style="width: 100%; height: 150px;"></p>
 
-  <div>
-  	<aside>
-  	  <center><h3>Connect With Me</h3>
+     </form> 
 
-       <a href="https://github.com/wes661"><img src="/Users/wesleyhanson/Desktop/Basic-Portfolio/Assets/images/107109-48.png" height="55" width="55" alt="Github"></a>
+        
+        
+    </section>
 
-      <a href="https://www.linkedin.com/in/wesley-hanson-056761153/"><img src="/Users/wesleyhanson/Desktop/Basic-Portfolio/Assets/images/square-linkedin-48.png" height="55" width="55" alt="linkedin"></a>
+    <aside id="connect">
+      <center><h3>Connect With Me</h3>
 
-      <a href="https://stackoverflow.com/users/9002028/wesley-hanson"><img src="/Users/wesleyhanson/Desktop/Basic-Portfolio/Assets/images/stackoverflow-48.png" height="55" width="55" alt="stackoverflow"></a>
+      <a href="https://github.com/wes661"><img src="Assets/images/107109-48.png" height="55" width="55" alt="Github"></a>
+
+      <a href="https://www.linkedin.com/in/wesley-hanson-056761153/"><img src="Assets/images/square-linkedin-48.png" height="55" width="55" alt="linkedin"></a>
+
+      <a href="https://stackoverflow.com/users/9002028/wesley-hanson"><img src="Assets/images/stackoverflow-48.png" height="55" width="55" alt="stackoverflow"></a>
 
       </center>
     </aside>
   </div>
 
   <div>
-    <section>
-  	  <h2>Contact</h2>
-          <form>
-            <label for="name">Name</label>
-            <input type="text" id="fname" name="wholename" placeholder="Your Name..."> 
-          </form> 
-    </section>     
-  </div> 
-
-  <div>
-  	<footer>&copy Copyright 2018 Wesley Hanson</footer>
+    <footer>&copy Copyright 2018 Wesley Hanson</footer>
   </div> 
 
 </body>
