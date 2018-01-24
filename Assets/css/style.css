@@ -49,9 +49,13 @@ body{
 
 }
 
+img{
+	border-radius: 10px;
+}
+
 h2{
 	color: #16356F;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 	font-size: 150%;
 	border-bottom: solid;
 	border-color: #dddddd;
@@ -137,7 +141,7 @@ li:first-child {
 	color: #16356F;
 	margin-top: 30px;
 	margin-left: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 	padding-right: 20px;
 	padding-left: 20px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -146,6 +150,8 @@ li:first-child {
 
 	
 }
+
+
 
 
 
@@ -277,5 +283,6 @@ footer {
 	padding-top: 13px;
 	padding-bottom: 13px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
 
 }
